@@ -1,0 +1,98 @@
+
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+<script LANGUAGE="JavaScript">
+
+
+<!--
+        if (document.images) {
+            img1up = new Image();
+            img1up.src = "images/audio.gif";
+            img2up = new Image();
+            img2up.src = "images/chat.gif";
+            img3up = new Image();
+            img3up.src = "images/covering.gif";
+            img4up = new Image();
+            img4up.src = "images/links.gif";
+            img5up = new Image();
+            img5up.src = "images/songs.gif";
+	    img6up = new Image();
+            img6up.src = "images/video.gif";
+
+            img1dn = new Image();
+            img1dn.src = "images/audio2.gif";
+            img2dn = new Image();
+            img2dn.src = "images/chat2.gif";
+            img3dn = new Image();
+            img3dn.src = "images/cover2.gif";
+            img4dn = new Image();
+            img4dn.src = "images/links2.gif";
+            img5dn = new Image();
+            img5dn.src = "images/songs2.gif";
+	    img6dn = new Image();
+            img6dn.src = "images/video2.gif";
+        }
+
+// Function to 'activate' images.
+function imgOn(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "dn.src");
+        }
+}
+
+// Function to 'deactivate' images.
+function imgOff(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "up.src");
+        }
+}
+
+function recMouseOver(){
+        imgOn('img1');
+        imgOn('img2');
+        imgOn('img3');
+        imgOn('img4');
+        imgOn('img5');
+        imgOn('img6');
+}
+
+function recMouseOut(){
+        imgOff('img1');
+        imgOff('img2');
+        imgOff('img3');
+        imgOff('img4');
+        imgOff('img5');
+        imgOff('img6');
+}
+
+
+
+//  -->
+
+
+</script>
+</head>
+
+<body bgcolor="#000000" text="#ffffff" link="red" vlink="darkred">
+<table rowspan="1" border="0" width="100%">
+<tr>
+<th>
+<img width="100" src="images/bluranim.gif"><br>
+<a href="audio.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img1" src="images/audio.gif" border="0" alt="audio"></a><br>
+<a href="chat.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img2" src="images/chat.gif" border="0" alt="chat room"></a><br>
+<a href="covering.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img3" src="images/covering.gif" border="0" alt="bands covering blur"></a><br>
+<a href="links.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img4" src="images/links.gif" border="0" alt="cool places"></a><br>
+<a href="songs.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img5" src="images/songs.gif" border="0" alt="tab/lyrics"></a><br>
+<a href="video.html" onMouseOver="recMouseOver()" onMouseOut="recMouseOut()" target="blur"><img name="img6" src="images/video.gif" border="0" alt="video"></a><br>
+</th>
+</tr>
+<tr>
+<th align="center">
+</b><font size=1 face="lucida sans">you are<br>visitor number<br>
+<img src="http://www.oocities.com/cgi-bin/counter"><br>since <i>12/30/97</i></font>
+</th>
+</tr>
+
+</table>
+</html>
